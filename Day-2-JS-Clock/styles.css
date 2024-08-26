@@ -1,0 +1,55 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: url("google-deepmind-qITnJecNF80-unsplash.jpg"); */
+    background-image: url(rohit-choudhari-S6KP_UX2O9s-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.clock{
+    width: 30rem;
+    height: 30rem;
+    border: 20px solid white;
+    border-radius: 50%;
+    margin: 50px auto; 
+    position: relative;
+    box-shadow:
+    0 0 0 4px rgba(0,0,0,0.1),
+    inset 0 0 0 3px #EFEFEF,
+    inset 0 0 10px black,
+    0 0 10px rgba(0,0,0,0.2);
+}
+
+.clock-face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px); /* account for the height of the clock hands */
+  }
+
+  .hand{
+    width: 50%;
+    height: 8px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(30deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0, 2.35, 0.78, 0.96);
+  }
+
+
+.second-hand{
+    height: 2px;
+    background: rgb(129, 111, 236);
+}
