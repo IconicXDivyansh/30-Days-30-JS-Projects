@@ -8,7 +8,7 @@ A repository aimed at learning JS by building JS projects and documenting it.
 | Day 3    | Updating CSS Variables Using JavaScript | [Project 3](https://iconicxdivyansh.github.io/30-Days-30-JS-Projects/Day-3-CSS-Variables-and-JS/)|
 | Day 4    |          |          |
 | Day 5    | Flex-Panel-Gallery 🤟|  [Project 5](https://iconicxdivyansh.github.io/30-Days-30-JS-Projects/Day-5-Flex-Panel-Gallery/) |
-| Day 6    |          |          |
+| Day 6    | Ajax-Ahead         |[Project6](https://github.com/IconicXDivyansh/30-Days-30-JS-Projects/Day-6-Ajax-Type-Ahead/)          |
 | Day 7    |          |          |
 | Day 8     |          |          |
 | Day 9         |          |          |
