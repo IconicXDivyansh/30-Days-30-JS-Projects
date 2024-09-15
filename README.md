@@ -10,7 +10,7 @@ A repository aimed at learning JS by building JS projects and documenting it.
 | Day 5    | Flex-Panel-Gallery 🤟|  [Project 5](https://iconicxdivyansh.github.io/30-Days-30-JS-Projects/Day-5-Flex-Panel-Gallery/) |
 | Day 6    | Ajax-Ahead         |[Project 6](https://iconicxdivyansh.github.io/30-Days-30-JS-Projects/Day-6-Ajax-Type-Ahead/)          |
 | Day 7    |          |          |
-| Day 8     |          |          |
+| Day 8     | Fun with HTML5 Canvas|[Project 8](https://iconicxdivyansh.github.io/30-Days-30-JS-Projects/Day-8-Fun-With-HTML5-Canvas/)          |
 | Day 9         |          |          |
 | Day 10         |          |          |
 | Day 11         |          |          |
