@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Handjet:wght,ELSH@100..900,2.4&family=Luckiest+Guy&display=swap');
+
+*, *::before , *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --transition: cubic-bezier(0.68, -0.2, 0, 0.8);
+}
+
+body{
+    background: linear-gradient(90deg, black, #333);
+}
+
+.hero-heading{
+    color: white;
+    text-align: center;
+    font-size: 9vw;
+    padding:1rem;
+    /* font-family: 'Luckiest Guy', cursive;*/
+    font-family: "Handjet", sans-serif;
+    font-weight: 400;
+    background: url(assests/images/heading.jpg);
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: 0.4rem;
+
+}
+
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.imgs-parent{
+    display: flex;
+    gap: 0.4rem;
+    perspective: 60rem;
+}
+
+section{
+    display: flex;
+    gap:0.4rem;
+    perspective: 60rem;
+}
+
+.img{
+    width: 5.4rem;
+    height: 21rem;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: transform 0.85s var(--transition),
+                filter 1.5s var(--transition),
+                width 0.3s ease-in-out;
+    position: relative;
+    filter: grayscale(1) brightness(0.5);
+    will-change: transform, filter;
+    
+}
+
+.img:hover{
+    transform: translateZ(17.375rem);
+    filter: inherit;
+}
+
+/* how to select other element when entirely different element is available*/
+
+.img:hover + *{
+transform: translateZ(14.77rem) rotateY(35deg);
+z-index: -1;
+filter: grayscale(0.2) brightness(0.9);
+}
+
+.img:hover + * + *{
+transform: translateZ(9.73rem) rotateY(40deg);
+z-index: -2;
+filter: grayscale(0.4) brightness(0.8);
+
+}
+
+.img:hover + * + * + *{
+transform: translateZ(4.17rem) rotateY(35deg);
+z-index: -3;
+filter: grayscale(0.6) brightness(0.7);
+}
+
+.img:hover + * + * + * + *{
+transform: translateZ(1.1rem) rotateY(25deg);
+z-index: -4;
+filter: grayscale(0.8) brightness(0.6);
+}
+
+.img:has(+ :hover){
+transform: translateZ(14.77rem) rotateY(-35deg);
+filter: grayscale(0.2) brightness(0.9);
+
+}
+.img.img:has(+ * + :hover){
+    transform: translateZ(9.73rem) rotateY(-40deg);
+    filter: grayscale(0.4) brightness(0.8);
+
+}
+
+.img.img:has(+ * + * + :hover){
+    transform: translateZ(4.17rem) rotateY(-35deg);
+    filter: grayscale(0.6) brightness(0.7);
+
+}
+
+.img.img:has(+* +* + * + :hover){
+    transform: translateZ();
+    filter: grayscale(0.8) brightness(0.6);
+
+}
+
+.img::before,
+.img::after{
+    content: "";
+    position: absolute;
+    width: 1.25rem;
+    height: 100%;
+    right: -1.25rem;
+}
+
+.img::after{
+    left: -1.25rem;
+}
+
+.open{
+    width:25vw;
+    transform: translateZ(17.375rem);
+    filter: inherit;
+    z-index: 1;
+    margin:0 0.45vw;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: "Handjet";
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: capitalize;
+    text-wrap: wrap;
+    cursor: pointer;
+    transition: trasform 0.8s ease-in-out;
+    filter: grayscale(1) brightness(50%);
+}
+.img.open a:hover{
+    font-weight: 500;
+    /* border: 2px solid white; */
+    padding: 0.4rem;
+    transform: scale(1.5);
+    filter:inherit;
+}
+
+
+.img.open a:hover::after{
+    content: "";
+    position: absolute;
+    background: url(assests/images/open_in_new_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png);
+    height: 0.8rem;
+    width: 1rem;
+    top: -5%;
+    right: -2%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
