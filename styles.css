@@ -35,10 +35,12 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    /* border: 2px solid white; */
 }
 .imgs-parent{
     display: flex;
-    gap: 0.4rem;
+    flex-direction: column;
+    gap: 10rem;
     perspective: 60rem;
 }
 
