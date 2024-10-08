@@ -6,13 +6,13 @@ A repository aimed at learning JS by building JS projects and documenting it.
 | Day 1    | JavaScript Drum Kit  🥁 | [Project 1](https://iconicxdivyansh.github.io/30-Days-30-JS-Projects/Day-1-JavaScript-Drum-Kit/) |
 | Day 2    | JavaScript Clock 🕧|  [Project 2](https://iconicxdivyansh.github.io/30-Days-30-JS-Projects/Day-2-JS-Clock/)   |
 | Day 3    | Updating CSS Variables Using JavaScript | [Project 3](https://iconicxdivyansh.github.io/30-Days-30-JS-Projects/Day-3-CSS-Variables-and-JS/)|
-| Day 4    |          |          |
+| Day 4    |  Array-Cardio-1 🏋️       |          |
 | Day 5    | Flex-Panel-Gallery 🤟|  [Project 5](https://iconicxdivyansh.github.io/30-Days-30-JS-Projects/Day-5-Flex-Panel-Gallery/) |
 | Day 6    | Ajax-Ahead         |[Project 6](https://iconicxdivyansh.github.io/30-Days-30-JS-Projects/Day-6-Ajax-Type-Ahead/)          |
-| Day 7    |          |          |
-| Day 8     | Fun with HTML5 Canvas|[Project 8](https://iconicxdivyansh.github.io/30-Days-30-JS-Projects/Day-8-Fun-With-HTML5-Canvas/)          |
-| Day 9         |          |          |
-| Day 10         |          |          |
+| Day 7    | Array-Cardio-2 🏋️        |          |
+| Day 8     | Fun with HTML5 Canvas 🎴|[Project 8](https://iconicxdivyansh.github.io/30-Days-30-JS-Projects/Day-8-Fun-With-HTML5-Canvas/)          |
+| Day 9         | Dev Tools Domination 💪        |          |
+| Day 10         |Hold Shift to Check Multiple Checkboxes ✅         | [Project 10](https://iconicxdivyansh.github.io/30-Days-30-JS-Projects/Day-10-Hold-Shift-And-Check-Multiple-Checkboxes/)         |
 | Day 11         |          |          |
 | Day 12        |          |          |
 | Day 13        |          |          |
